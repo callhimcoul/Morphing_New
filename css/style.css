@@ -49,7 +49,7 @@ section:not(#home) {
 
 section:not(#home)::before {
     content: "";
-    background: url("https://i.imgur.com/wyjMqYg.jpeg") no-repeat center center fixed;
+    background: url("https://i.imgur.com/wyjMqYg.jpeg");
     background-size: cover;
     opacity: 1;
     filter: brightness(0.3);
