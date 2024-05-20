@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/discography.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/news.css">
+    <link rel="stylesheet" href="css/projects.css">
+    <title>Morphing</title>
+</head>
+<body>
+<div class="background-image"></div>
+<nav class="navbar navbar-expand-lg navbar-dark bg-transparent fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="#">
+            <img src="Images/gold_logo.png" alt="Orchestra Logo" class="navbar-logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+            <a class="navbar-brand mx-lg-auto d-none d-lg-block" href="#">
+                <img src="Images/gold_logo.png" alt="Orchestra Logo" class="navbar-logo">
+            </a>
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownOrchestra" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Orchestra
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownOrchestra">
+                        <li><a class="dropdown-item" href="#">About</a></li>
+                        <li><a class="dropdown-item" href="#">Tomasz Wabnic</a></li>
+                        <li><a class="dropdown-item" href="#">Team</a></li>
+                        <li><a class="dropdown-item" href="#">Musicians</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownConcerts" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Concerts
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownConcerts">
+                        <li><a class="dropdown-item" href="#projects">Projects</a></li>
+                        <li><a class="dropdown-item" href="#">Calendar</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMedia" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Media
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMedia">
+                        <li><a class="dropdown-item" href="#">Images</a></li>
+                        <li><a class="dropdown-item" href="#">Videos</a></li>
+                        <li><a class="dropdown-item" href="#discography">Discography</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownSupport" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Support
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownSupport">
+                        <li><a class="dropdown-item" href="#news">News</a></li>
+                        <li><a class="dropdown-item" href="#">Contact Us</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="video-container">
+    <div class="video-overlay"></div>
+    <video autoplay muted loop id="background-video">
+        <source src="https://i.imgur.com/nlgdll7.mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+    </video>
+</div>
+
+<!-- News Section -->
+<section id="news" class="news-section">
+    <div class="container-sm">
+        <h2>Latest News & Updates</h2>
+        <div class="news-box">
+            <div class="news-item">
+                <img src="Images/Brazil_Tour.png" alt="Brazil Tour">
+                <div class="news-content">
+                    <h3 class="news-title">Morphing celebrates its success on tour in Brazil</h3>
+                    <p class="news-text">The Morphing Chamber Orchestra has landed back in Europe after a successful 4-city Brazilian tour
+                        with pianist Álvaro Siviero, where they performed Viennese classics by Mozart, Kreisler and Strauss and Chopin’s Concerto no. 1.
+                        The tour was the result of a long-standing collaboration between Mr. Siviero and MCO artistic director Tomasz Wabnic and they are
+                        already preparing for upcoming projects! Up next is a concert at the Manggha Japanese Museum of Art and Technology in Krakow, Poland
+                        on the 18th September. Mr. Wabnic looks forward to bringing Chopin back to his homeland and reciprocating the same friendship and hospitality
+                        to Mr. Siviero in Europe!</p>
+                    <p class="news-date">April 15, 2024</p>
+                </div>
+            </div>
+            <div class="news-item">
+                <img src="Images/Classique_In_Blue1.png" alt="Classique In Blue">
+                <div class="news-content">
+                    <h3 class="news-title">New Album Release</h3>
+                    <p class="news-text">Our latest album, "Symphony of Dreams," is now available. Experience the beauty of classical music like never before.</p>
+                    <p class="news-date">April 10, 2024</p>
+                </div>
+            </div>
+            <div class="news-item">
+                <img src="Images/Mystical_Morphing.png" alt="Mystical Morphing">
+                <div class="news-content">
+                    <h3 class="news-title">MYSTICAL MORPHING WITH ANDREAS SCHOLL BACH / PÄRT</h3>
+                    <p class="news-text">Minoritenkirche Vienna
+                        Minoritenplatz 2A, 1010 Vienna</p>
+                    <p class="news-date">4th October 8pm, 2023</p>
+                </div>
+            </div>
+            <div class="news-item">
+                <img src="Images/Nomination_Arvo_Paert.png" alt="Nomination / Arvo Paert">
+                <div class="news-content">
+                    <h3 class="news-title">THE MORPHING CHAMBER ORCHESTRA HAS BEEN NOMINATED IN 4 CATEGORIES FOR ITS ALBUM ARVO PÄRT „STABAT MATER" / ÀPARTE!</h3>
+                    <p class="news-text">Orchestra of the Year
+                        Opera Recording of the Year [Aleksandra Kurzak, Andreas Scholl & Roberto Alagna]
+                        Conductor of the Year [Tomasz Wabnic]
+                        Vocalist of the Year [Andreas Scholl]</p>
+                    <p class="news-date">- - -</p>
+                </div>
+            </div>
+            <div class="news-item">
+                <img src="Images/Arvo_Paert.png" alt="Arvo Paert Album">
+                <div class="news-content">
+                    <h3 class="news-title">CD-Release 'Stabat Mater'</h3>
+                    <p class="news-text">Label www.aparte.com Paris Ton Master: Nicolas Bartholomee
+                        Producer: Aparte and Morphing
+                        Solists:
+                        Aleksandra Kurzak – Sopran
+                        Andreas Scholl – Countertenor
+                        Roberto Alagna – Tenor
+                        Tomasz Wabnic – Viola, Artistic Director
+                        Christian Erny – Dirigent (Stabat Mater, Wallfahrtslied)</p>
+                    <p class="news-date">October 28, 2022</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Projects Section -->
+<section id="projects" class="projects-section">
+    <div id="projectsCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="project-item">
+                    <div class="project-image-container">
+                        <a href="your-link-here.html">
+                            <img src="Images/StraussMain.png" alt="Project Image" class="project-image pulsing-image">
+                        </a>
+                    </div>
+                    <div class="project-content">
+                        <h5>MORPHING x JOHANN STRAUSS <br>
+                            The 200th anniversary in 2025</h5>
+                        <p>Based in Vienna, the heart of the former Danube Monarchy, the cosmopolitan VIENNA MORPHING ORCHESTRA
+                            is more than familiar with the works of the Strauss dynasty. The 200th anniversary of Johann Strauss's
+                            son is the occasion for a wonderful musical celebration! From gallops to polkas to the most famous waltzes,
+                            nothing is missing. Brahms was already enchanted by Strauss: "He is the only one I envy - he is dripping with music,
+                            he always comes up with something." Following the brilliant success of the collaboration with singer Timna Brauer in November 2023
+                            at the Vienna Konzerthaus she will now also appear as a guest soloist at the Strauss Gala. Since its foundation, the MORPHING ORCHESTRA
+                            has been characterized by collaborations with musicians far removed from classical music. And Johann actually swings too! Timna Brauer
+                            swings unconventionally and humorously through the sound palace of the Waltz King. She juggles virtuosically between classical music,
+                            jazz and fantasy, Strauss and Mozart in a different way.</p>
+                        <h6>Featured Artists</h6>
+                        <ul>
+                            <li>Artist 1</li>
+                            <li>Artist 2</li>
+                            <li>Artist 3</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="project-item">
+                    <div class="project-image-container">
+                        <img src="https://via.placeholder.com/300x150" alt="Project Image" class="project-image">
+                    </div>
+                    <div class="project-content">
+                        <h5>Project 2</h5>
+                        <p>Details about Project 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                        <h6>Featured Artists</h6>
+                        <ul>
+                            <li>Artist A</li>
+                            <li>Artist B</li>
+                            <li>Artist C</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="project-item">
+                    <div class="project-image-container">
+                        <img src="Images/StraussMain.png" alt="Project Image" class="project-image pulsing-image">
+                    </div>
+                    <div class="project-content">
+                        <h5>Project 3</h5>
+                        <p>Details about Project 3. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                        <h6>Featured Artists</h6>
+                        <ul>
+                            <li>Artist X</li>
+                            <li>Artist Y</li>
+                            <li>Artist Z</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- Add more carousel items for additional projects -->
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#projectsCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#projectsCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</section>
+
+<section id="discography">
+    <h2 class="custombold-text">Discography</h2>
+    <div class="discography-section">
+        <!-- Entry 1 -->
+        <div class="discography-entry">
+            <div class="album-image">
+                <img src="Images/Enjoy_The_Silence.png" alt="Enjoy The Silence" class="image"/>
+                <div class="overlay-text">Enjoy The Silence</div>
+            </div>
+            <div class="small-image-container">
+                <img src="https://i.imgur.com/A4hEf7U.gif" height="95" width="90" alt="Kleines Bild" class="small-image"/>
+            </div>
+            <div class="album-info">
+                <p>Tim Allhoff & Morphing Chamber Orchestra</p>
+            </div>
+            <div class="album-links">
+                <div class="link-group">
+                    <a href="https://music.apple.com/us/album/silence-is-something-you-can-actually-hear/1686882128" target="_blank" class="itunes-link">Apple Music</a>
+                    <a href="https://open.spotify.com/album/6TU8GCDEvZzciExmRRE6YD" target="_blank" class="spotify-link">Spotify</a>
+                    <br /><br />
+                </div>
+                <div class="link-group">
+                    <a href="https://music.amazon.de/albums/B0C4G1M84Q" target="_blank" class="amazon-link">&nbsp &nbsp Amazon &nbsp &nbsp</a>
+                    <a href="https://www.deezer.com/us/album/438170977" target="_blank" class="deezer-link">Deezer</a>
+                </div>
+            </div>
+        </div>
+        <hr class="separator" />
+        <!-- Entry 2 -->
+        <div class="discography-entry">
+            <div class="album-image">
+                <img src="Images/Arvo_Paert.png" alt="Arvo Pärt" class="image"/>
+                <div class="overlay-text">Arvo Pärt</div>
+            </div>
+            <div class="small-image-container">
+                <img src="https://i.imgur.com/zIlBs9v.png" height="70" width="75" alt="Kleines Bild" class="small-image"/>
+            </div>
+            <div class="album-info">
+                <p>Morphing Chamber Orchestra, Aleksandra Kurzak, <br> Andreas Scholl, Roberto Alagna & Tomasz Wabnic</p>
+            </div>
+            <div class="album-links">
+                <div class="link-group">
+                    <a href="https://music.apple.com/us/album/arvo-p%C3%A4rt-stabat-mater-other-works/1636869129" target="_blank" class="itunes-link">Apple Music</a>
+                    <a href="https://open.spotify.com/album/1kLg0Lb8E1P6lhNBzYYhDn" target="_blank" class="spotify-link">Spotify</a>
+                    <br /><br />
+                </div>
+                <div class="link-group">
+                    <a href="https://music.amazon.de/albums/B0B7XW96XD" target="_blank" class="amazon-link">&nbsp &nbsp Amazon &nbsp &nbsp</a>
+                    <a href="https://www.deezer.com/us/album/340285897" target="_blank" class="deezer-link">Deezer</a>
+                </div>
+            </div>
+        </div>
+        <hr class="separator" />
+        <!-- Entry 3 -->
+        <div class="discography-entry">
+            <div class="album-image">
+                <img src="Images/Mozart_Concertante.png" alt="Mozart Concertante Cover" class="image"/>
+                <div class="overlay-text">Mozart Concertante</div>
+            </div>
+            <div class="small-image-container">
+                <img src="https://i.imgur.com/zIlBs9v.png" height="70" width="75" alt="Kleines Bild" class="small-image"/>
+            </div>
+            <div class="album-info">
+                <p>Aleksandra Kurzak, Yuuki Wong, Tomasz Wabnic, <br> Morphing Chamber Orchestra</p>
+            </div>
+            <div class="album-links">
+                <div class="link-group">
+                    <a href="https://music.apple.com/us/album/mozart-concertante/1585857586" target="_blank" class="itunes-link">Apple Music</a>
+                    <a href="https://open.spotify.com/album/3Tf3ODPQZ59VyNaiftNQg6" target="_blank" class="spotify-link">Spotify</a>
+                    <br /><br />
+                </div>
+                <div class="link-group">
+                    <a href="https://music.amazon.de/albums/B09G8L25M2" target="_blank" class="amazon-link">&nbsp &nbsp Amazon &nbsp &nbsp</a>
+                    <a href="https://www.deezer.com/us/album/258789332" target="_blank" class="deezer-link">Deezer</a>
+                </div>
+            </div>
+        </div>
+        <hr class="separator" />
+        <!-- Entry 4 -->
+        <div class="discography-entry">
+            <div class="album-image">
+                <img src="Images/Cellopera.png" alt="Cellopera (Deluxe Edition) Cover" class="image"/>
+                <div class="overlay-text">Cellopera (Deluxe Edition)</div>
+            </div>
+            <div class="small-image-container">
+                <img src="https://i.imgur.com/zIlBs9v.png" height="70" width="75" alt="Kleines Bild" class="small-image"/>
+            </div>
+            <div class="album-info">
+                <p>Ophélie Gaillard, Morphing Chamber Orchestra, Frédéric Chaslin</p>
+            </div>
+            <div class="album-links">
+                <div class="link-group">
+                    <a href="https://music.apple.com/us/album/cellopera-deluxe-edition/1611153741" target="_blank" class="itunes-link">Apple Music</a>
+                    <a href="https://open.spotify.com/album/1Dlh0VppQJPDECDmK18SM9" target="_blank" class="spotify-link">Spotify</a>
+                    <br /><br />
+                </div>
+                <div class="link-group">
+                    <a href="https://music.amazon.de/albums/B09T5LPNCL" target="_blank" class="amazon-link">&nbsp &nbsp Amazon &nbsp &nbsp</a>
+                    <a href="https://www.deezer.com/us/album/297570762" target="_blank" class="deezer-link">Deezer</a>
+                </div>
+            </div>
+        </div>
+        <hr class="separator" />
+        <!-- Entry 5 -->
+        <div class="discography-entry">
+            <div class="album-image">
+                <img src="Images/Desire.png" alt="Desire Album Cover" class="image"/>
+                <div class="overlay-text">Desire</div>
+            </div>
+            <div class="small-image-container">
+                <img src="https://i.imgur.com/Ao4053n.png" height="55" width="75" alt="Kleines Bild" class="small-image"/>
+            </div>
+            <div class="album-info">
+                <p>Aleksandra Kurzak, Frédéric Chaslin, Morphing Chamber Orchestra</p>
+            </div>
+            <div class="album-links">
+                <div class="link-group">
+                    <a href="https://music.apple.com/us/album/desire/1496581935" target="_blank" class="itunes-link">Apple Music</a>
+                    <a href="https://open.spotify.com/album/05CdAKDmexoT6Jibn0aHZS" target="_blank" class="spotify-link">Spotify</a>
+                    <br /><br />
+                </div>
+                <div class="link-group">
+                    <a href="https://music.amazon.de/albums/B0B7XW96XD" target="_blank" class="amazon-link">&nbsp &nbsp Amazon &nbsp &nbsp</a>
+                    <a href="https://www.deezer.com/us/album/340285897" target="_blank" class="deezer-link">Deezer</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
